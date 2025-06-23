@@ -14,12 +14,12 @@ while n > 0 :# n is the number of tries
         print('Your guess is correct. The secret number is',real)
     elif x < real and x >= min and n > 0:# and is here bc mun tong mee all 3 conditions
         min = x + 1# if guess 10 and the number is more than that it will reduce the range
-        print('Your guess is not correct. The secret number is beteen', min,'and',max,'\n')
+        print('Your guess is not correct. The secret number is between', min,'and',max,'\n')
     elif x < real and x <= min and n > 0 :
         print('That number is not within the range. Please enter a number more than', min, '\n')
     elif x > real and  x <= max and n > 0:
         max = x - 1
-        print('Your guess is not correct. The secret number is beteen', min,'and',max,'\n')
+        print('Your guess is not correct. The secret number is between', min,'and',max,'\n')
     elif x > real and x >= max and n > 0:
         print('That number is not within the range. Please enter a number less than', max, '\n')
     elif x != real and n == 0:
