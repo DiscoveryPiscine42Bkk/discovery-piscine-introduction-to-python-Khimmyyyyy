@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 password = input()
 
 if password == "Python is awsome":
