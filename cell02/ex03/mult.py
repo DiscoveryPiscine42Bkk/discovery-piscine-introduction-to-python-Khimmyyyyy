@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def main():
     try:
         num1 = int(input("Enter the first number:"))

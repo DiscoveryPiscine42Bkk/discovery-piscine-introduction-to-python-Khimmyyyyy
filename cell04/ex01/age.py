@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 age_str = str(input("please tell me your age:"))
 age_int = int(age_str)
 print(f"You are currently {age_int} years old")
